@@ -11,7 +11,7 @@ using Windows.Media.Effects;
 using Windows.Media.MediaProperties;
 using Windows.UI.Text;
 
-namespace EffectiveEffect
+namespace EffectiveEffect1607
 {
     public sealed class TheEffect : IBasicVideoEffect
     {
@@ -99,7 +99,7 @@ namespace EffectiveEffect
 
         public void SetEncodingProperties(VideoEncodingProperties encodingProperties, IDirect3DDevice device)
         {
-            _canvasDevice = CanvasDevice.CreateFromDirect3D11Device(device, CanvasDebugLevel.None);
+            _canvasDevice = CanvasDevice.CreateFromDirect3D11Device(device);
         }
 
         public bool IsReadOnly { get { return false; } }

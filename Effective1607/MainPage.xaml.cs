@@ -1,4 +1,4 @@
-﻿using EffectiveEffect;
+﻿using EffectiveEffect1607;
 using System;
 using Windows.Media.Capture;
 using Windows.Media.Effects;
@@ -7,7 +7,7 @@ using Windows.UI.Xaml.Navigation;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
-namespace Effective
+namespace Effective1607
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
